@@ -2,16 +2,20 @@
 #
 # Get latest from https://github.com/github/gitignore/blob/master/Unity.gitignore
 #
-/[Ll]ibrary/
-/[Tt]emp/
-/[Oo]bj/
-/[Bb]uild/
-/[Bb]uilds/
-/[Ll]ogs/
-/[Mm]emoryCaptures/
+# for MAC
+gg-coffee-grind-project/**/StreamingAssets/build_info.txt
+gg-coffee-grind-project/**/assetDatabase3
+gg-coffee-grind-project/**/.DS_Store
+gg-coffee-grind-project/Temp/
+gg-coffee-grind-project/**/CurrentLayout.dwlt
+gg-coffee-grind-project/Assets/StreamingAssets/build_info.txt
+gg-coffee-grind-project/Library/
+gg-coffee-grind-project/obj/
+gg-coffee-grind-project/Logs/
+
 
 # Asset meta data should only be ignored when the corresponding asset is also ignored
-!/[Aa]ssets/**/*.meta
+!/Assets/**/*.meta
 
 # Uncomment this line if you wish to ignore the asset store tools plugin
 # /[Aa]ssets/AssetStoreTools*
@@ -57,4 +61,3 @@ sysinfo.txt
 
 # Crashlytics generated file
 crashlytics-build.properties
-
